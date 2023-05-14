@@ -1,0 +1,32 @@
+.main {
+    width: 50%;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+body {
+    background-color: #E68CE6;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+ol {
+    margin: 5px auto;
+    display: block;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
