@@ -14,6 +14,11 @@ p {
 
 a {
     font-size: 1.5em;
+    padding: 25px;
+}
+
+nav {
+    padding: 25px;
 }
 
 nav, footer {
@@ -35,9 +40,22 @@ nav, footer {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 
 a:hover {
     background-color: white;
     color: steelblue;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+body {
+    margin: 0
+}
+
+img {
+    border: 4px solid steelblue;
 }
