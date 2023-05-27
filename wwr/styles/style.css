@@ -37,7 +37,7 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #283618;
+    background-color: #d9c2a3;
 }
 
 body {
@@ -72,7 +72,7 @@ header {
 }
 
 .msg {
-    background-color: #283618;
+    background-color: #283618ad;
     color: #edede9;
     line-height: 1.5em;
     padding: 35px;
