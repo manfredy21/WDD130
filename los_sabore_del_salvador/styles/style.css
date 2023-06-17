@@ -41,6 +41,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
+    
 }
 
 #hero-box {
@@ -67,6 +68,8 @@ nav {
 
 #hero-img {
     width: 100%;
+    height: 50%;
+    background: #eb601b7c;
 }
 
 .button-box {
