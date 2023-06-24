@@ -474,3 +474,27 @@ button {
     margin-top: 50px;
     border-radius: 5px;
 }
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+.form-j{
+    background-color: #d9c2a3b4;
+    margin-top: 200px;
+    font-family: "Crete Round", Helvetica, sans-serif;
+    width: 35%;
+    align-content: center;
+
+}
