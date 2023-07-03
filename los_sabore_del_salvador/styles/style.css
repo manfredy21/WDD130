@@ -14,7 +14,7 @@ nav a {
 
 }nav a:hover {
     background-color: #edede9c9;
-    color: #283618;
+    color: #8bbf53e0;
 }
 header {
     background-color: #8bbf53e0;
@@ -134,12 +134,8 @@ body {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img:hover {
-    transform: scale(1.1);
-}
-
 .pupusas-descrip-card, .tamal-descrip-card, .pastelito-descrip-card{
-    margin: 200px 15px;
+    margin: 50px 15px;
 }
 
 h1, h2, h3 {
@@ -151,7 +147,6 @@ h1, h2, h3 {
 footer {
     background-color: #8ABF53;
     color: #edede9;
-    margin-top: 5px;
     padding: 25px 50px;
     display: grid;
     justify-content: space-around;
