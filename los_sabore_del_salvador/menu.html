@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Menu</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script/script.js"></script>
 </head>
 <body>
     <div id="content">
@@ -19,28 +20,34 @@
                 <a href="contactus.html" class="contac">Contact us</a>
             </nav>
         </header>
-        <main>
-            <h1>Our Daily Menu</h1>
+        <main class="menu-grid">
+            <h1 class="head1">Our Daily Menu</h1>
             <section class="product-pupusas">
                 <h3>Pupusas</h3>
                 <p>This is our main dish pupusa is a thick corn or rice dough-based tortilla filled with one or more ingredients:</p>
-                    <ul>
-                        <li>cheese</li>
-                        <li>pork rinds</li>
-                        <li>squash</li>
-                        <li>refried beans ans cheese</li>
-                        <li>loroco and cheese</li>
-                        <li>checken and cheese</li>
-                    </ul>
+                    <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Choose your flavor</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a>cheese</a>
+                            <a>pork rinds</a>
+                            <a>squash</a>
+                            <a>refried beans ans cheese</a>
+                            <a>loroco and cheese</a>
+                            <a>checken and cheese</a>
+                        </div>
+                    </div>
                 <p>$4.50</p>
             </section>
             <section class="product-tamal">
                 <h3>Tamal</h3>
                 <p>Tamal is a tipical dish made of mass and is filled with:</p>
-                    <ul>
-                        <li>chicken</li>
-                        <li>pork</li>
-                    </ul>
+                    <div class="dropdown">
+                        <button onclick="myFunction2()" class="dropbtn">Choose your flavor</button>
+                        <div id="myDropdown2" class="dropdown-content2">
+                            <a>chicken</a>
+                            <a>pork</a>
+                        </div>
+                    </div>
                 <p>$3.00</p>
             </section>
             <section class="product-bsoup">
@@ -48,18 +55,21 @@
                 <p>It is very popular in El Salvador because its preparation has passed from generation to generation, becoming a tradition</p>
                 <p>$15.00</p>
             </section>
-            <h1>Our Combos</h1>
+            <h1 class="head2">Our Combos</h1>
             <section class="product-pcombo1">
                 <h3>Personal Combo</h3>
                 <p>This combo contains 3 pupusas you can choose the favor of the pupusa </p>
-                <ul>
-                    <li>cheese</li>
-                    <li>pork rinds</li>
-                    <li>squash</li>
-                    <li>refried beans ans cheese</li>
-                    <li>loroco and cheese</li>
-                    <li>checken and cheese</li>
-                </ul>
+                <div class="dropdown">
+                    <button onclick="myFunction3()" class="dropbtn">Choose your flavor</button>
+                    <div id="myDropdown3" class="dropdown-content3">
+                        <a>cheese</a>
+                        <a>pork rinds</a>
+                        <a>squash</a>
+                        <a>refried beans ans cheese</a>
+                        <a>loroco and cheese</a>
+                        <a>checken and cheese</a>
+                    </div>
+                </div>
                 <p>$13.25</p>
             </section>
         </main>

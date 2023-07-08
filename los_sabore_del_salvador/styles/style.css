@@ -138,9 +138,104 @@ body {
     margin: 50px 15px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", Helvetica, sans-serif;
 }
+
+/* Menu */
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.head1{
+    grid-column: 2/3;
+    margin-top: auto;
+    text-align: center;
+}
+
+.head2 {
+    grid-column: 2/3;
+    margin-top: auto;
+    text-align: center;
+}
+
+.product-pupusas {
+    grid-column: 1/2;
+}
+
+.product-pcombo1 {
+    grid-column: 1/2;
+}
+
+.product-pupusas, .product-tamal, .product-bsoup, .product-pcombo1 {
+    margin: 20px 10px 10px 10px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #EB601B;
+    color: #F2E729;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #b64e1a;
+    color: #F2E729;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content, .dropdown-content2, .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  .dropdown-content3 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
 
 /* Footer */
 
